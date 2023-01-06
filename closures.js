@@ -32,21 +32,21 @@
 
 // // Output:- 100 200  
 
-// Example 4
-function datahiding() {
-    let xm = 1;
-    function multiply()
-    {
-        console.log("value of xm inside multiply fun  before modification :=",xm);
-        xm=xm*2;
-        console.log("value of xm inside multiply fun after mofification :=",xm);
-        return xm;
-    } 
-    return multiply;
-}
-var multiple = datahiding();
-// console.log(multiple);
-console.log("Value of xm inside multiply fun =",multiple());
+// // Example 4
+// function datahiding() {
+//     let xm = 1;
+//     function multiply()
+//     {
+//         console.log("value of xm inside multiply fun  before modification :=",xm);
+//         xm=xm*2;
+//         console.log("value of xm inside multiply fun after mofification :=",xm);
+//         return xm;
+//     } 
+//     return multiply;
+// }
+// var multiple = datahiding();
+// // console.log(multiple);
+// console.log("Value of xm inside multiply fun =",multiple());
 
 
 
